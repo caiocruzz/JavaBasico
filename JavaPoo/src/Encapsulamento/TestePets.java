@@ -1,0 +1,34 @@
+package Encapsulamento;
+
+import java.util.Scanner;
+public class TestePets {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner entrada = new Scanner(System.in);
+		
+		System.out.println("Cadastro de Pet:");
+		
+		System.out.println("Nome do pet: ");
+		String nome = entrada.nextLine();
+		
+		System.out.println("Tipo do pet (ex: cachorro, papagaio): ");
+		String tipo = entrada.nextLine();
+
+		System.out.println("Idade do pet: ");
+		int idade = entrada.nextInt();
+		
+		// Criando Objeto Pet
+		
+		AnimalEstimacao meuAnimal = new AnimalEstimacao(nome, tipo, idade);
+		
+		// Exibindo informações
+		System.out.println("\n ====DADOS DO PET====");
+		System.out.println("Nome: " + meuAnimal.getNome());
+		System.out.println("Tipo: " + meuAnimal.getTipo());
+		System.out.println("Idade: " + meuAnimal.getIdade() + "anos");
+		
+		entrada.close();
+	}
+
+}

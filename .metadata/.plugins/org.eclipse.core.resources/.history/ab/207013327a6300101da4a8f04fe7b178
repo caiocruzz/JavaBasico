@@ -1,0 +1,5 @@
+package OperacoesMatematicas;
+
+public interface OperacoesMatematicas {
+
+}

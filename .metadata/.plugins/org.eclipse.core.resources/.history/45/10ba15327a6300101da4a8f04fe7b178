@@ -1,0 +1,10 @@
+package OperacoesMatematicas;
+
+public class TesteOperacoes {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

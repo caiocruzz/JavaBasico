@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;AnimalAbstrato&apos; to &apos;Acabou/src&apos;&#x0D;&#x0A;- Original project: &apos;ExerciciosClassesAbstratas_Interfaces&apos;&#x0D;&#x0A;- Destination element: &apos;Acabou/src&apos;&#x0D;&#x0A;- Original element: &apos;ExerciciosClassesAbstratas_Interfaces/src/AnimalAbstrato&apos;" description="Copy package" destination="=Acabou/src" element1="/src&lt;AnimalAbstrato" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1752801150958" version="1.0"/>
+</session>

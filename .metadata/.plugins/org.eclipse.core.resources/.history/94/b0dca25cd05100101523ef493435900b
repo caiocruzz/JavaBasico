@@ -1,0 +1,30 @@
+package JavaBasico2;
+
+import java.util.Scanner;
+
+public class lacoWhile {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner entrada = new Scanner(System.in);
+		System.out.println("Quantos Alunos tem na sala ? ");
+		int alunos = entrada.nextInt();
+		System.out.println("Qual a nota? ");
+		double notas = entrada.nextDouble();
+		
+		int i = 1;
+		while (i < alunos) {
+			System.out.println("Qual a nota? ");
+			notas = entrada.nextDouble();
+			
+			i = i+1;
+		
+			
+		}
+		double soma = notas + notas;	
+		double media = soma / alunos ;
+		System.out.println(media);			
+	}
+	
+}

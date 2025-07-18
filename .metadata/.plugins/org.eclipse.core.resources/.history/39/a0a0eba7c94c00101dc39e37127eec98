@@ -1,0 +1,20 @@
+package projetoJavaFundamentos;
+
+import java.util.Scanner;
+
+public class exercicio07 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner numero1 = new Scanner(System.in);
+		System.out.println("Digite um numero : ");
+		Scanner numero2 = new Scanner(System.in);
+		System.out.println("Digite um numero : ");
+		Scanner numero3 = new Scanner(System.in);
+		System.out.println("Digite um numero : ");
+		
+	
+
+}
+}

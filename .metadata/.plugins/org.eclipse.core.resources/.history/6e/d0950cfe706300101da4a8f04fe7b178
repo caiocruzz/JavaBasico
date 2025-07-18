@@ -1,0 +1,5 @@
+package AnimalInterfaces;
+
+public interface Animal {
+
+}

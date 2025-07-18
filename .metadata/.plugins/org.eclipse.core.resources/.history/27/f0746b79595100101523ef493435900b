@@ -1,0 +1,20 @@
+package JavaBasico2;
+
+import java.util.Scanner;
+
+public class lacoWhile {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner entrada = new Scanner(System.in);
+		System.out.println("Quantos Alunos tem na sala ? ");
+		int alunos = entrada.nextInt();
+		double notas = entrada.nextDouble();
+		System.out.println("Qual a nota? ");
+		
+		while
+		
+	}
+
+}

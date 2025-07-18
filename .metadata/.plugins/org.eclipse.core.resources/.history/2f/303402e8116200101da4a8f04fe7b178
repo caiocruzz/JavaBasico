@@ -1,0 +1,9 @@
+package Metodos;
+
+public class JavaMetodos {
+
+	public JavaMetodos() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

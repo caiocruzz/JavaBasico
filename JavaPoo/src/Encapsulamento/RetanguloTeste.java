@@ -1,0 +1,33 @@
+package Encapsulamento;
+
+import java.util.Scanner;
+
+public class RetanguloTeste {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner entrada = new Scanner(System.in);
+		
+		System.out.println("=== CÁCULO DE RETÂNGULO ===");
+		System.out.println("Digite a base do retângulo: ");
+		double base = entrada.nextDouble();
+		
+		
+		System.out.println("Digite a altura do retângulo: ");
+		double altura = entrada.nextDouble();
+		
+		// Criando objeto Retângulo com base e altura
+		
+		Retangulo r = new Retangulo(base,altura);
+		
+		// Exibindo resultados
+		
+		System.out.println("\nÁrea: " + r.calcularArea());
+		System.out.println("Perímetro: " + r.calcularPerimetro());
+		
+		entrada.close();
+		
+		
+	}
+oub
+}
